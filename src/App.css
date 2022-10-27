@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: 'SFPro';
+	font-style: normal;
+	font-weight: normal;
+	src: url('./fonts/SFProDisplay-Regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'SFPro-b';
+	font-style: normal;
+	font-weight: bold;
+	src: url('./fonts/SFProDisplay-Bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'SFPro-t';
+	font-style: normal;
+	font-weight: lighter;
+	src: url('./fonts/SFProDisplay-Thin.ttf') format('truetype');
+}
+main{
+    margin: 'none'
+}
